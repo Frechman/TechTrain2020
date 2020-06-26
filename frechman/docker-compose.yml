@@ -1,0 +1,24 @@
+#version: "3"
+#
+#services:
+#  task1:
+#    container_name: task1
+#    build:
+#      context: ./service-1-java/
+#    ports:
+#        - "8081:8080"
+#    networks:
+#        - default
+#  task2:
+#    container_name: task2
+#    build:
+#      context: ./service-2-kt/
+#    ports:
+#        - "8082:8080"
+#    networks:
+#        - default
+#
+#networks:
+#  default:
+#    external:
+#      name: default
